@@ -32,6 +32,16 @@
             flex-shrink: 0;
             flex-basis: 0%;
         }
+
+        .imagen1 {
+            width: 700px;
+            height: 400px;
+        }
+
+        .imagen2 {
+            width: 500px;
+            height: 400px;
+        }
         
 
         @media screen and (max-width: 599px) {
@@ -51,4 +61,21 @@
                 align-items: center;
             }
 
+            .imagenes__mobile {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2rem;
+            }
+
+            .imagen1 {
+                width: 300px;
+                height: 100px;
+            }
+    
+            .imagen2 {
+                width: 300px;
+                height: 200px;
+            }
+            
         }
